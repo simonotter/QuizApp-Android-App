@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cycling Quiz</string>
+
+    <string name="question1">1. What is the ideal cycling cadence?</string>
+    <string name="answer1a">50&#8211;75 RPM</string>
+    <string name="answer1b">40&#8211;50 RPM</string>
+    <string name="answer1c">75&#8211;90 RPM</string>
+    <string name="question2">2. Who won last year\'s Tour de France?</string>
+    <string name="answer2">Chris Froome</string>
+    <string name="question3">"3. Which tools should you take when cycling?"</string>
+    <string name="answer3a">Hand Pump</string>
+    <string name="answer3b">Tyre Levers</string>
+    <string name="answer3c">Track Pump</string>
+    <string name="answer3d">Pedal Spanner</string>
+    <string name="question4">4. Who won last year\'s Tour de Yorkshire?</string>
+    <string name="answer4">Thomas Voeckler</string>
+    <string name="max_score">Well done! You got full marks! </string>
+    <string name="your_score">Your score is <xliff:g id="score" example="4">%d</xliff:g></string>
+    <string name="submit_answers">Submit Answers</string>
+</resources>

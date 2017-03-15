@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1"
+            style="@style/question"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/q1_RPM_50_75_radio_Button_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1a" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1b"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1c"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question2"
+            style="@style/question"/>
+
+        <EditText
+            android:id="@+id/q2_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            style="@style/question"/>
+
+        <CheckBox
+            android:id="@+id/q3_hand_pump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3a"/>
+
+        <CheckBox
+            android:id="@+id/q3_tyre_levers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3b"/>
+
+        <CheckBox
+            android:id="@+id/q3_track_pump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3c"/>
+
+        <CheckBox
+            android:id="@+id/q3_pedal_spanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer3d"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            style="@style/question"/>
+
+        <EditText
+            android:id="@+id/q4_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/submit_answers"
+                android:onClick="gradeQuiz"
+                style="@style/button" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
